@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: statusquarkusio-dztp
     spec:
       containers:
-      - image: java-quarkus-image:latest
+      - image: quay.io/redhat-appstudio-qe/rhtap-demo-ttis-tenant/status-quarkus-io/statusquarkusio-dztp@sha256:50508d9bd1d1948e9a6173a05d15ab7e7bd197553f0b4e36ec90058c7dfd4608
         name: my-java-quarkus
         ports:
         - containerPort: 8081
